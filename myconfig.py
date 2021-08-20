@@ -13,13 +13,13 @@
 #     config.write(f)
 
 
-API_KEY = "PK0540A4HFAVO0OBCVAJ"
-SECRET_KEY = "EKbAw43LEyk0DNZGwAt46YpGKB9fwaQAm5SGoXpv"
+API_KEY = "your-alpaca-api-key"
+SECRET_KEY = "your-alpaca-secret-key"
 ENDPOINT_URL = "https://paper-api.alpaca.markets"
 HEADERS = {'APCA-API-KEY-ID': API_KEY, 'APCA-API-SECRET-KEY': SECRET_KEY}
 ORDERS_URL = "{}/v2/orders".format(ENDPOINT_URL)
 
-ALPHAVANTAGE_API_KEY = 'F37CT05APWZEDQB1'
+ALPHAVANTAGE_API_KEY = 'your-alpha-vantage-api-key'
 
 STOCK_URL = "https://finance.yahoo.com/quote/{}/"
 
