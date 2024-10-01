@@ -1,3 +1,13 @@
-# Alpaca-Algo-Trading-Bot
+# Trading Bot Project
 
-Trading bot which requires an Alpaca paper-trading account and implements a simple mean reversion strategy to trade stocks/ETFs.
+## Bots
+
+Current implementation will allow for two types of bots:
+1. Reddit Scraper
+2. Trading Bot
+
+The reddit scraper will take user parameters to confine its search and return qualitative financial that may inform user trading/strategy. The trading bot will connect to a brokerage service and run according to a user defined strategy. This can be used live or for backtesting (paper-trading).
+
+## REST API
+
+Provide a REST API service through which users can interact with trading bots (create bot instance, tune bot parameters, recieve data/messages, stop bots, etc...)
